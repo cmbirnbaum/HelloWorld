@@ -8,5 +8,10 @@ namespace HelloWorld
 		{
 			return "Hello, world.";
 		}
+
+		public static void ThrowHelloWorld()
+		{
+			throw new Exception("Hello, world.");
+		}
 	}
 }
